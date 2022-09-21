@@ -1,0 +1,70 @@
+<html>
+<head>
+<title> One button Color Change</title>
+</head>
+
+<body>
+<center>
+<h1> One button Color Change</h1>
+</center>
+
+<input type="button" value="color"
+Onmousedown="a()";
+Onmouseup="b()";
+Onmouseover="c()";
+Onmouseout="d()";
+Onkeydown="e()";
+Onkeyup="f()";>
+
+<script>
+document.bgColor="grey";
+
+function a()
+{
+document.fgColor="orange";
+}
+
+function b()
+{
+document.fgColor="blue";
+}
+
+function c()
+{
+document.fgColor="pink";
+}
+
+function d()
+{
+document.fgColor="green";
+}
+
+function e()
+{
+document.bgColor="black";
+}
+
+function f()
+{
+document.bgColor="white";
+}
+
+function g()
+{
+alert("Are u Sure");
+document.bgColor="skyblue";
+}
+
+function h()
+{
+confirm("Are u Sure");
+document.bgColor="red";
+}
+
+
+</script>
+
+<input type="button" value="alert" Onclick="g()">
+<input type="button" value="Confirm" Onclick="h()">
+</body>
+</html>
